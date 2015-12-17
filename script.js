@@ -38,7 +38,7 @@ var RAINBOW = function () {
                 bodyStart = true;
             }
             if (bodyStart) {
-                element.style['animation-delay'] =  a/10 +"s";
+                element.style['animation-delay'] =  -a/10 +"s";
                 element.style['animation-duration'] =  speed + "s";
                 a++;
             }
