@@ -1,0 +1,14 @@
+* {
+    animation-name: rainbow-css;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes rainbow-css {
+    0% {color: #5630C3;}  /*Purple*/
+    14% {color: #0225F3;} /*Dark Blue*/
+    28% {color: #2AC3FC;} /*Blue*/
+    43% {color: #41C903;} /*Green*/
+    57% {color: #FEF506;} /*Yellow*/
+    72% {color: #FE9307;} /*Orange*/
+    86% {color: #FE080D;} /*Red*/
+}
